@@ -1,0 +1,11 @@
+# Package imports
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+import sklearn.datasets 
+import sklearn.linear_model
+from sklearn.datasets import make_moons
+from pandas import DataFrame
+%matplotlib inline
+
+np.random.seed(1) # set a seed so that the results are consistent
